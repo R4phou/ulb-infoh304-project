@@ -1,0 +1,15 @@
+- Structure tas-min -> Alex
+
+- Recherche algo -> Nico
+
+- Faire code qui marche -> Raphael
+
+
+
+1. On crée une liste top20 selon une struc de donnée (à définir)
+2. On charge la db et on calcule le score
+-> score se calcule dans set_score
+3. Si le score > scoremindutop20 --> On cherche son offset et on la place dans la liste top20
+4. si y'a un elem en trop dans la liste top20 on supprime le dernier
+5. Une fois toute la db parcourue, on va chercher dans le phr les 20 header correspondants aux offset
+6. il nous mets 20 pck on est trop bo
